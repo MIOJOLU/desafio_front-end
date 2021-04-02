@@ -1,0 +1,119 @@
+.cor{
+    background-color: aqua;
+    text-align: center  ;
+}
+
+.root{
+margin: 3xp;
+}
+
+* p, .p{
+  font-size: small;  
+}
+
+hr{
+    width: 100%;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+.cardTitulo{
+    text-align: start;
+    font-weight: bolder;
+}
+
+@media (max-width: 600px){
+        
+}
+@media (min-width: 601px) and (max-width: 960px){
+    .avatar{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+    }
+    .avatarNome{
+        font-size: 0.6rem;
+        color: white;
+    }
+    .avatarPrincipal{
+        width: 60px;
+        height: 60px;
+    }
+    .avatarPrincipal>.avatarNome{
+        font-size: 1.7rem;
+    }
+    .Card{
+        justify-content: flex-end;
+    }
+    /*placesholders*/
+    .hoje{
+        font-size: 10px;
+    }
+    .hora{
+        font-size: 10px;
+    }
+    .cardTitulo{
+        font-size: 1rem;
+    }
+    .cardUsers{
+        font-size: 0.5rem;
+    }
+    .menu{
+        color: blue;
+    }
+}
+/* meu pc */
+@media (min-width: 961px) and (max-width: 1280px){
+    /*Card*/
+    .avatar{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+    }
+    .avatarNome{
+        font-size: 0.6rem;
+        color: white;
+    }
+    .avatarPrincipal{
+        width: 60px;
+        height: 60px;
+    }
+    .avatarPrincipal>.avatarNome{
+        font-size: 1.7rem;
+    }
+    .Card{
+        justify-content: flex-end;
+    }
+    /*placesholders*/
+    .hoje{
+        font-size: 10px;
+    }
+    .hora{
+        font-size: 10px;
+    }
+    .cardTitulo{
+        font-size: 1rem;
+    }
+    .cardUsers{
+        font-size: 0.5rem;
+    }
+    .menu{
+        color: blue;
+    }
+}
+@media (min-width: 1281px){
+    .cardTitulo{
+        color: blueviolet;
+    }
+}
